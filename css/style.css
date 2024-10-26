@@ -1,9 +1,269 @@
-/* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-h1 {
-background-color: rgb(255, 102, 0);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+
 }
+
+h1,h2,h3 {
+    font-family: "Josefin Sans", sans-serif;
+    ;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    margin: 0;
+}
+
+.tecnoStyle {
+font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 5px;
+  font-size: 50px;
+}
+
+.tecnoStyle1 {
+    font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 5px;
+}
+
+.Text {
+    padding-left: 5px;
+}
+
+
+div h1 {
+    background-color: rgba(255, 102, 0, 0.904);
+    margin: 0
+}
+
+#home {
+    display: flex;
+    margin: 20px auto;
+    margin: 1rem 0 1rem 1rem ;
+}
+
+.sushi {
+    text-align: center;
+    padding-left: 200px;
+}
+
+.sushi img {
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.514)
+}
+
+.batman {
+    display: flex;
+    justify-content: right;
+}
+
+.batman img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.514)
+}
+
+#noobStyle {
+    font-size: 40px;
+    color: rgb(7, 121, 26);
+}
+
+
+a {
+
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    height: 20px;
+    background-color: rgba(255, 102, 0, 0.904);
+}
+
+nav ul li {
+    color: rgb(148, 148, 148);
+
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid blue;
+
+}
+
+nav a {
+    color: rgb(255, 253, 253);
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.about img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.about figure>p {
+    color: black;
+    font-weight: bold;
+}
+
+.about img:hover {
+    border: 5px solid rgb(65, 0, 126);
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.514)
+}
+
+.about div {
+    display: flex;
+    gap: 5px;
+    overflow: scroll;
+}
+
+.institution {
+    display: flex;
+    background-color: rgba(207, 207, 207, 0.4);
+    padding: 2rem;
+    align-items: flex-start;
+    border-radius: 8px;
+    width: 90%;
+    margin: 2rem auto;
+    gap: 1rem;
+    transition: 0.5s all;
+
+}
+
+.institution img {
+    width: 100px;
+
+}
+
+.institution:hover {
+    transform: scale(105%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377)
+}
+
+#date {
+    margin-left: auto;
+}
+
+.projects {
+    display: flex;
+    gap: 15px;
+    overflow: scroll;
+    text-align: center;
+    padding-left: 7px;
+}
+
+.project1 {
+    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 35%;
+    background-color: rgba(207, 207, 207, 0.4);
+    border-radius: 50px;
+}
+
+.project1:hover{
+    border: 1px solid rgb(12, 12, 12);
+
+}
+
+.project1 img {
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.project1 ul {
+    text-align: left;
+    text-wrap: pretty;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.skill1 {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: x-large;
+}
+
+.skill2 {
+    min-width: 25%;
+    width: 20px;
+    padding: 20px;
+   margin: 0 auto;
+   display: flex;
+    background-color: rgba(207, 207, 207, 0.4);
+    border-radius: 25px;
+    transition: o.5s all;
+   
+}
+
+.skill2:hover {
+    border: 1px solid rgb(173, 35, 1);
+    box-shadow: 5px 15px 5px rgba(0, 0, 0, 0.514)
+}
+
+.skill2 ul {
+    margin: auto;
+}
+
+#contact h2 {
+ font-size: 30px;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.socialMedia a {
+    color: black;
+}
+
+.socialMedia a:hover {
+   
+}
+
+/*display flex;
+flex direction:column
+max weight: 
+4 divs por columna
