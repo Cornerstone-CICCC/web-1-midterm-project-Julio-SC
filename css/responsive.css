@@ -24,3 +24,33 @@
  
 }
 
+@media all and (max-width: 750px)
+{
+ body {
+   flex-direction: column;
+ }
+ #home {
+   flex-direction: column;
+}  
+
+.sushi, .batman {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   justify-content: center;
+}
+
+.projects {
+   flex-direction: column;
+}
+
+.skill2 {
+   width: 80%;
+}
+
+.Text {
+   padding-left: 0;
+}
+ 
+
+}
